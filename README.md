@@ -1,16 +1,32 @@
-\# QUBE Engine
-
-
+# QUBE Engine
 
 Graph Spatial Quantum Machine Learning Library
 
+## Installation
 
+pip install qube-engine
 
-\## Installation
+## Features
 
+- Graph Descriptor Learning
+- Quantum-inspired Features
+- Scikit-Learn Compatible
+- Benchmarks
+- CLI
+- Save/Load Models
 
+## Example
 
-```bash
+from qube import QubeEngine
 
-pip install -e .
+model = QubeEngine()
+model.fit(X, y)
+pred = model.predict(X)
 
+## Documentation
+
+...
+
+## License
+
+MIT
