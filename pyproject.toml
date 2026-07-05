@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qube-engine"
+version = "1.0.0"
+description = "Graph Spatial Quantum Machine Learning Engine"
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    {name = "Gulfam Hussain"}
+]
+
+license = {text = "MIT"}
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "networkx",
+    "openpyxl",
+]
+
+keywords = [
+    "machine-learning",
+    "quantum",
+    "graph",
+    "feature-engineering",
+    "bioinformatics"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
